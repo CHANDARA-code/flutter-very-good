@@ -5,8 +5,8 @@
 // license that can be found in the LICENSE file or at
 // https://opensource.org/licenses/MIT.
 
-import 'package:my_flutter_app/app/app.dart';
-import 'package:my_flutter_app/bootstrap.dart';
+import 'package:Pokemon/app/app.dart';
+import 'package:Pokemon/bootstrap.dart';
 
 void main() {
   bootstrap(() => const App());

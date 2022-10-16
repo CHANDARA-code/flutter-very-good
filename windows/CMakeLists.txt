@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(my_flutter_app LANGUAGES CXX)
+project(Pokemon LANGUAGES CXX)
 
-set(BINARY_NAME "my_flutter_app")
+set(BINARY_NAME "Pokemon")
 
 cmake_policy(SET CMP0063 NEW)
 

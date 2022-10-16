@@ -6,8 +6,8 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:my_flutter_app/app/app.dart';
-import 'package:my_flutter_app/counter/counter.dart';
+import 'package:Pokemon/app/app.dart';
+import 'package:Pokemon/counter/counter.dart';
 
 void main() {
   group('App', () {

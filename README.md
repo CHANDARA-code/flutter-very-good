@@ -1,4 +1,4 @@
-# My Flutter App
+# Pokemon
 
 ![coverage][coverage_badge]
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
@@ -31,7 +31,7 @@ $ flutter run --flavor staging --target lib/main_staging.dart
 $ flutter run --flavor production --target lib/main_production.dart
 ```
 
-_\*My Flutter App works on iOS, Android, Web, and Windows._
+_\*Pokemon works on iOS, Android, Web, and Windows._
 
 ---
 
@@ -92,7 +92,7 @@ This project relies on [flutter_localizations][flutter_localizations_link] and f
 3. Use the new string
 
 ```dart
-import 'package:my_flutter_app/l10n/l10n.dart';
+import 'package:Pokemon/l10n/l10n.dart';
 
 @override
 Widget build(BuildContext context) {

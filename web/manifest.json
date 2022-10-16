@@ -1,6 +1,6 @@
 {
-    "name": "My Flutter App",
-    "short_name": "My Flutter App",
+    "name": "Pokemon",
+    "short_name": "Pokemon",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

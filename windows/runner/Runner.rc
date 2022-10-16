@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example.verygoodcore.my-flutter-app" "\0"
-            VALUE "FileDescription", "my_flutter_app" "\0"
+            VALUE "FileDescription", "Pokemon" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "my_flutter_app" "\0"
+            VALUE "InternalName", "Pokemon" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example.verygoodcore.my-flutter-app. All rights reserved." "\0"
-            VALUE "OriginalFilename", "my_flutter_app.exe" "\0"
-            VALUE "ProductName", "My Flutter App" "\0"
+            VALUE "OriginalFilename", "Pokemon.exe" "\0"
+            VALUE "ProductName", "Pokemon" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

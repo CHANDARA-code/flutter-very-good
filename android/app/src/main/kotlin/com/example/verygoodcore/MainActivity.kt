@@ -1,4 +1,4 @@
-package com.example.verygoodcore.my_flutter_app
+package com.example.verygoodcore.Pokemon
 
 import io.flutter.embedding.android.FlutterActivity
 

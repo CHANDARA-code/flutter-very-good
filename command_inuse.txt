@@ -1,0 +1,15 @@
+flutter build ios --flavor development --target lib/main_development.dart
+flutter build android --flavor development --target lib/main_development.dart
+fvm 
+fvm use 3.3.3
+fvm flutter run 
+fvm flutter run --flavor staging -t lib/main_staging.dart
+
+# Development
+flutter run --flavor development --target lib/main_development.dart
+
+# Staging
+flutter run --flavor staging --target lib/main_staging.dart
+
+# Production
+flutter run --flavor production --target lib/main_production.dart

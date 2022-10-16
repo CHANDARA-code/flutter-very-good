@@ -3,6 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:Pokemon/counter/counter.dart';
 import 'package:Pokemon/home/view/home_screen.dart';
 import 'package:Pokemon/l10n/l10n.dart';
+import 'package:Pokemon/constants/theme_constant.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -10,12 +11,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        appBarTheme: const AppBarTheme(color: Color(0xFF13B9FF)),
-        colorScheme: ColorScheme.fromSwatch(
-          accentColor: const Color(0xFF13B9FF),
-        ),
-      ),
+      theme: ThemeConstant.lightTheme,
       localizationsDelegates: const [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
